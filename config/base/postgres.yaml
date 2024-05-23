@@ -3,7 +3,7 @@ kind: PostgresCluster
 metadata:
   name: wanja
 spec:
-  postgresVersion: 13
+  postgresVersion: 15
   instances:
     - name: instance1
       dataVolumeClaimSpec:
