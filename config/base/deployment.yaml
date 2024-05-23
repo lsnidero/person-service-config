@@ -22,6 +22,10 @@ spec:
     spec:
       containers:
         - image: quay.io/lsnidero0/person-service:latest
+          command:
+            - sh
+          args:
+            - /deployments/run-java.sh
           imagePullPolicy: IfNotPresent
           name: person-service
           ports:
