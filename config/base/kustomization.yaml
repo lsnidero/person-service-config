@@ -11,4 +11,3 @@ resources:
 - service.yaml
 - route.yaml
 - post-sync-hook.yaml
-- secret.yaml
